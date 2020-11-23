@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "axios": "^0.21.0",
+    "element-resize-detector": "^1.2.1",
     "element-ui": "^2.14.0",
     "js-base64": "^3.6.0",
     "vue": "^2.5.2",

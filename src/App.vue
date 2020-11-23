@@ -2,7 +2,7 @@
   <div id="app">
     <header-vue v-show="$route.name!='404'"></header-vue>
     <router-view/>
-    <Footer v-show="$route.name!='404'"></Footer >
+    <Footer v-show="$route.name!='404'&&$route.name!='Reding'"></Footer >
 
   </div>
 </template>
@@ -47,4 +47,14 @@ export default {
     list-style: none;
 
   }
+.el-popover{
+  height: 500px;
+  overflow: auto;
+  margin-top: 70px;
+   -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 </style>

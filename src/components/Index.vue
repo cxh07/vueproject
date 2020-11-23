@@ -906,7 +906,7 @@
   }
 
   .state-box i {
-    font-family: PingFangSC-Regular, HelveticaNeue-Light, 'Helvetica Neue Light', 'Microsoft YaHei', sans-serif, Simsun;;
+    font-family: PingFangSC-Regular, HelveticaNeue-Light, 'Helvetica Neue Light', 'Microsoft YaHei', sans-serif, Simsun;
     float: right;
     overflow: hidden;
     max-width: 52px;

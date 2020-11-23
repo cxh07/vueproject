@@ -6,6 +6,7 @@ import Login from "../components/Login";
 import Regist from "../components/Regist";
 import Error from "../components/Error";
 import Catalog from "../components/Catalog";
+import Reding from "../components/Reding";
 
 Vue.use(Router)
 
@@ -39,6 +40,11 @@ export default new Router({
       path:'*',
       name:'404',
       component:Error
+    },
+    {
+      path:'/reding',
+      name:'Reding',
+      component:Reding
     }
   ]
 })

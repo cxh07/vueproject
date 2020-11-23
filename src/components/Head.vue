@@ -64,7 +64,7 @@
         name: "header-vue",
         data() {
             return {
-                activeIndex: '/', //激活的导航的index
+                activeIndex: '', //激活的导航的index
 
 
                 search: '' ,//搜索内容
